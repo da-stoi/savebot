@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "discord.js": "^13.0.0-dev.t1628124537.3eb4140"
+    "discord.js": "^13.0.0"
   }
 }
