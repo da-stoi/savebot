@@ -42,7 +42,7 @@ client.on('interactionCreate', async (interaction) => {
   if (interaction.isButton()) {
     // Handle buttons
     return await buttons(interaction);
-  } else if (interaction.isCommand) {
+  } else if (interaction.isCommand()) {
     // Handle slash commands
     return await commands(interaction);
   }
